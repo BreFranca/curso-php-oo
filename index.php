@@ -12,4 +12,4 @@ $mustang->brand = "Mustange";
 $mustang->color = "Amarelo";
 $mustang->engine = 300;
 
-var_dump($mustang);
+echo $mustang->getEngine('hp');
